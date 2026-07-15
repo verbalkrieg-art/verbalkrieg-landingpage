@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VERBALKRIEG">
+  <rect width="64" height="64" rx="8" fill="#070908"/>
+  <path d="M9 13h12l5 6h-8l-4 5v16l4 5h8l-5 6H9l-5-8V21l5-8Zm46 0H43l-5 6h8l4 5v16l-4 5h-8l5 6h12l5-8V21l-5-8Z" fill="#e9e9df"/>
+  <path d="M32 10v44M23 32h18" stroke="#c7ff2f" stroke-width="3"/>
+  <circle cx="32" cy="23" r="3.5" fill="#070908" stroke="#c7ff2f" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="3.5" fill="#070908" stroke="#c7ff2f" stroke-width="2.5"/>
+  <circle cx="32" cy="41" r="3.5" fill="#070908" stroke="#c7ff2f" stroke-width="2.5"/>
+</svg>
