@@ -76,3 +76,16 @@
     revealTargets.forEach((element) => element.classList.add('is-visible'));
   }
 })();
+
+
+// Public knowledge register
+const knowledgeSearch=document.querySelector("#knowledgeSearch");
+if(knowledgeSearch){
+  const cards=[...document.querySelectorAll("[data-knowledge-term]")],count=document.querySelector("#knowledgeCount"),empty=document.querySelector("#knowledgeEmpty");
+  knowledgeSearch.addEventListener("input",()=>{
+    const query=knowledgeSearch.value.toLocaleLowerCase("de").normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim();
+    let visible=0;
+    cards.forEach(card=>{const haystack=card.textContent.toLocaleLowerCase("de").normalize("NFD").replace(/[\u0300-\u036f]/g,"");const show=!query||haystack.includes(query);card.hidden=!show;if(show)visible++;});
+    count.textContent=visible+" BEGRIFFE";empty.hidden=visible!==0;
+  });
+}
