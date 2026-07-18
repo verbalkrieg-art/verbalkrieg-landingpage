@@ -66,3 +66,175 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--acid);outline-offse
 .knowledgeGrid{display:grid;grid-template-columns:1fr 1fr;border-left:1px solid var(--line)}.knowledgeCard{border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#090c0a}.knowledgeCard[open]{background:#c7ff2f05}.knowledgeCard summary{list-style:none;cursor:pointer;position:relative;min-height:145px;padding:27px 55px 25px 27px}.knowledgeCard summary::-webkit-details-marker{display:none}.knowledgeCard summary:after{content:'+';position:absolute;right:27px;top:27px;color:var(--acid);font:22px 'Geist Mono',monospace}.knowledgeCard[open] summary:after{content:'–'}.knowledgeCard summary span{display:block;margin-bottom:29px;color:var(--acid);font:900 12px 'Geist Mono',monospace;text-transform:uppercase}.knowledgeCard summary b{display:block;max-width:560px;color:#d2d5cf;font-size:14px;line-height:1.5}.knowledgeCard>div{padding:0 27px 27px;border-top:1px solid #303630}.knowledgeCard>div p{color:#9da39b;font-size:12px;line-height:1.65}.knowledgeCard>div small{display:block;margin-top:18px;color:var(--acid);font:800 7px 'Geist Mono',monospace;letter-spacing:.1em}.knowledgeEmpty{padding:40px;text-align:center;border:1px dashed var(--line);color:#8c938a}
 @media(max-width:900px){.knowledgeSection{padding:100px 4vw}.knowledgeThesis{grid-template-columns:1fr}.knowledgeTools{grid-template-columns:1fr}.knowledgeGrid{grid-template-columns:1fr}}
 @media(max-width:620px){.knowledgeSection{padding:85px 20px}.knowledgeThesis{padding:24px}.knowledgeCard summary{min-height:130px;padding:23px 50px 22px 22px}.knowledgeCard summary:after{right:22px;top:22px}}
+
+
+/* Analysis hub and public method charter */
+.positioningHub,
+.methodCharter {
+  position: relative;
+  padding: clamp(5.5rem, 9vw, 9rem) clamp(1.25rem, 5vw, 5.5rem);
+  border-top: 1px solid rgba(239,241,234,.14);
+  background:
+    linear-gradient(135deg, rgba(190,255,27,.035), transparent 46%),
+    #090b0a;
+}
+
+.entryChoiceGrid,
+.developmentScope,
+.charterGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid rgba(239,241,234,.22);
+  border-left: 1px solid rgba(239,241,234,.22);
+}
+
+.entryChoiceGrid article,
+.developmentScope > div,
+.charterGrid article {
+  min-width: 0;
+  padding: clamp(1.35rem, 2.5vw, 2.4rem);
+  border-right: 1px solid rgba(239,241,234,.22);
+  border-bottom: 1px solid rgba(239,241,234,.22);
+}
+
+.entryChoiceGrid article {
+  min-height: 19rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.008));
+}
+
+.entryChoiceGrid article > span,
+.charterGrid article > span {
+  color: #bfff1b;
+  font-family: var(--mono, monospace);
+  font-size: .7rem;
+  letter-spacing: .12em;
+}
+
+.entryChoiceGrid small,
+.developmentScope small {
+  display: block;
+  width: fit-content;
+  margin: 1.2rem 0 .8rem;
+  padding: .28rem .42rem;
+  border: 1px solid rgba(190,255,27,.45);
+  color: #bfff1b;
+  font-family: var(--mono, monospace);
+  font-size: .62rem;
+  letter-spacing: .12em;
+}
+
+.entryChoiceGrid h3,
+.charterGrid h3 {
+  margin: .25rem 0 .8rem;
+  color: #f2f1e9;
+  font-size: clamp(1.15rem, 1.7vw, 1.7rem);
+  line-height: 1;
+}
+
+.entryChoiceGrid p,
+.developmentScope p,
+.charterGrid p,
+.scopeNote {
+  color: rgba(242,241,233,.68);
+  line-height: 1.55;
+}
+
+.entryChoiceGrid a {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  color: #bfff1b;
+  font-family: var(--mono, monospace);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-decoration: none;
+}
+
+.developmentScope {
+  margin-top: clamp(2.2rem, 4vw, 4rem);
+}
+
+.developmentScope > div {
+  background: rgba(255,255,255,.015);
+}
+
+.developmentScope small {
+  border-color: rgba(242,241,233,.28);
+  color: rgba(242,241,233,.62);
+}
+
+.developmentScope b {
+  color: #f2f1e9;
+  font-size: .88rem;
+  letter-spacing: .06em;
+}
+
+.scopeNote {
+  max-width: 72rem;
+  margin: 1.25rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid #bfff1b;
+  font-size: .82rem;
+}
+
+.methodCharter {
+  background:
+    radial-gradient(circle at 82% 10%, rgba(190,255,27,.065), transparent 28%),
+    #070908;
+}
+
+.charterGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.charterGrid article {
+  min-height: 13.5rem;
+}
+
+.charterGrid article:nth-child(3) h3 {
+  color: #bfff1b;
+}
+
+.methodCharter blockquote {
+  margin: clamp(2rem, 4vw, 4rem) 0 0;
+  padding: clamp(1.4rem, 3vw, 2.5rem);
+  border: 1px solid rgba(190,255,27,.45);
+  color: #f2f1e9;
+  font-size: clamp(1.15rem, 2.2vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .entryChoiceGrid,
+  .developmentScope,
+  .charterGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .entryChoiceGrid article,
+  .charterGrid article {
+    min-height: auto;
+  }
+
+  .entryChoiceGrid a {
+    margin-top: 1.2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .positioningHub,
+  .methodCharter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .entryChoiceGrid article,
+  .developmentScope > div,
+  .charterGrid article {
+    padding: 1.2rem;
+  }
+}
