@@ -238,3 +238,50 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--acid);outline-offse
     padding: 1.2rem;
   }
 }
+
+
+/* Mobile containment: keep copy inside the iPhone safe area */
+html,
+body,
+#main {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+@media (max-width: 620px) {
+  .hero {
+    padding-left: max(20px, env(safe-area-inset-left));
+    padding-right: max(20px, env(safe-area-inset-right));
+  }
+
+  .heroStatement {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(31px, 9.2vw, 39px);
+    letter-spacing: -.05em;
+  }
+
+  .heroStatement span:first-child { font-size: .78em; }
+
+  .heroStatement span,
+  .heroStatement i,
+  .heroCopy,
+  .sectionIntro,
+  .sectionIntro > div,
+  .sectionIntro > p,
+  .entryChoiceGrid article,
+  .developmentScope > div,
+  .charterGrid article,
+  .knowledgeCard summary,
+  .knowledgeCard > div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .sectionIntro h2,
+  .entryChoiceGrid h3,
+  .developmentScope b,
+  .charterGrid h3,
+  .knowledgeCard summary b { overflow-wrap: anywhere; }
+}
