@@ -285,3 +285,16 @@ body,
   .charterGrid h3,
   .knowledgeCard summary b { overflow-wrap: anywhere; }
 }
+
+
+/* Keep the long transparency headline intact on narrow phones */
+@media (max-width: 620px) {
+  .limits h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(29px, 8.25vw, 35px);
+    line-height: .92;
+    letter-spacing: -.065em;
+    overflow-wrap: normal;
+  }
+}
