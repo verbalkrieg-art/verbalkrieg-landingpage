@@ -20,7 +20,7 @@
 
   const scan = document.querySelector('.scanLabel');
   const consolePanel = document.querySelector('.mediaConsole');
-  const states = ['CLAIMS WERDEN GETRENNT', 'BEGRIFFE WERDEN GEPRÜFT', 'FRAMING WIRD SICHTBAR', 'GEGENPOSITION ENTSTEHT', 'OFFENE BEWEISLAST MARKIERT'];
+  const states = ['BEHAUPTUNGEN WERDEN GETRENNT', 'QUELLEN WERDEN SICHTBAR', 'GEGENPOSITION WIRD GEPRÜFT', 'OFFENE PUNKTE WERDEN MARKIERT'];
   let state = 0;
   if (scan && consolePanel && !reducedMotion) {
     consolePanel.classList.add('phase-0');
@@ -61,7 +61,7 @@
     });
   }
 
-  const revealTargets = document.querySelectorAll('.sectionIntro, .problemGrid, .inputDeck, .auditQuestions, .process, .studioWindow, .roleGrid, .ledgerGrid, .ledgerRules, .reportWindow, .featureGrid, .audienceGrid, .limitsCopy, .alphaNotice, .finalCta h2');
+  const revealTargets = document.querySelectorAll('.sectionIntro, .entryChoiceGrid, .developmentScope, .problemGrid, .inputDeck, .auditQuestions, .process, .studioWindow, .charterGrid, .roleGrid, .ledgerGrid, .ledgerRules, .reportWindow, .featureGrid, .audienceGrid, .limitsCopy, .alphaNotice, .finalCta h2');
   revealTargets.forEach((element) => element.classList.add('reveal-block'));
   if ('IntersectionObserver' in window && !reducedMotion) {
     const observer = new IntersectionObserver((entries) => {
