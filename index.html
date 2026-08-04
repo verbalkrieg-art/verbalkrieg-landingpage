@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Bring einen Beitrag, Link, Screenshot oder eine Behauptung mit. VERBALKRIEG macht sichtbar, was belegt ist, was offen bleibt und was nur nach einer Tatsache klingt.">
+  <meta name="description" content="Füge einen Medienbeitrag als URL, Text oder Bild ein. VERBALKRIEG trennt Aussagen, Deutungen, Wertungen und Prognosen – transparent und korrigierbar.">
   <meta name="theme-color" content="#070908">
-  <title>VERBALKRIEG — Was hält der Prüfung stand?</title>
+  <title>VERBALKRIEG — Medienbeiträge verständlich prüfen</title>
   <link rel="icon" href="./favicon.svg">
   <link rel="preload" href="./assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="./assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,230 +18,74 @@
   <nav class="nav" aria-label="Hauptnavigation">
     <a class="brand brandLogo" href="#top" aria-label="VERBALKRIEG Startseite"><img src="./assets/verbalkrieg-logo-concept.webp" alt="VERBALKRIEG" width="1702" height="924"></a>
     <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">MENÜ</button>
-    <div class="navlinks" id="navlinks">
-      <a href="#einstieg">EINSTIEG</a><a href="#ablauf">SO FUNKTIONIERT'S</a><a href="#methode">VERFAHREN</a><a href="#begriffe">BEGRIFFE</a><a href="#plattform">PLATTFORM</a>
-    </div>
-    <a class="navCta studio-link" href="https://app.verbalkrieg.de">APP ÖFFNEN <span>↗</span></a>
+    <div class="navlinks" id="navlinks"><a href="#einstieg">EINSTIEG</a><a href="#ablauf">SO FUNKTIONIERT'S</a><a href="#ergebnis">ERGEBNIS</a><a href="#folgen">MÖGLICHE FOLGEN</a><a href="#methode">VERFAHREN</a></div>
+    <a class="navCta studio-link" href="https://app.verbalkrieg.de">BEITRAG PRÜFEN <span>↗</span></a>
   </nav>
 
   <section class="hero" id="top">
     <div class="gridbg" aria-hidden="true"></div>
-    <div class="eyebrow"><span class="liveDot"></span> FÜR BEITRÄGE, SCHLAGZEILEN UND STREITFRAGEN <b>FRÜHE ALPHA</b></div>
-    <h1 class="heroStatement"><span>DU MUSST NICHT ALLES</span><span>GLAUBEN, WAS GUT KLINGT.</span><i>FINDEN WIR HERAUS,</i><i>WAS DAVON TRÄGT.</i></h1>
-    <p class="heroLead">Es geht nicht darum, wer gewinnt, sondern was der Prüfung standhält.</p>
-    <p class="heroCopy">Bring einen Beitrag, eine Schlagzeile, einen Screenshot oder eine Behauptung mit. VERBALKRIEG trennt, was gesagt wird, von dem, was sich belegen lässt – mit Quellen, Gegenargumenten und offenen Fragen.</p>
-    <div class="heroActions heroActionsThree">
-      <a class="primary" href="https://app.verbalkrieg.de">BEITRAG PRÜFEN LASSEN <span>→</span></a>
-      <a class="secondaryCta" href="#ablauf">SO FUNKTIONIERT'S <span>↓</span></a>
-    </div>
+    <div class="eyebrow"><span class="liveDot"></span> URL · TEXT · BILD <b>GESCHLOSSENE ALPHA</b></div>
+    <h1 class="heroStatement"><span>WAS WIRD BEHAUPTET?</span><span>WAS HÄLT STAND?</span><i>WAS KÖNNTE</i><i>DARAUS FOLGEN?</i></h1>
+    <p class="heroLead">Ein Medienbeitrag hinein. Eine verständliche Prüfakte heraus.</p>
+    <p class="heroCopy">VERBALKRIEG macht sichtbar, was ein Beitrag behauptet, wo er deutet oder wertet und welche Unsicherheiten bleiben. Du kontrollierst immer zuerst den erfassten Inhalt.</p>
+    <div class="heroActions"><a class="primary" href="https://app.verbalkrieg.de">BEITRAG PRÜFEN <span>→</span></a><a class="secondaryCta" href="#ablauf">VERFAHREN ANSEHEN <span>↓</span></a></div>
 
-    <div class="mediaConsole" role="img" aria-label="Schematische Darstellung einer Medienanalyse mit getrennten Behauptungen, Deutungen und Werturteilen">
-      <div class="consoleTop"><span>VK / MEDIENPRÜFUNG</span><span>INPUT: SCREENSHOT</span><i>● ANALYSE LÄUFT</i></div>
+    <div class="mediaConsole" role="img" aria-label="Schematische Vorschau einer Medienanalyse mit kontrollierter Erfassung und getrennten Aussagearten">
+      <div class="consoleTop"><span>VK / MEDIENPRÜFUNG</span><span>INPUT: URL</span><i>● VORSCHAU BEREIT</i></div>
       <div class="mediaInput">
-        <div class="sourcePreview">
-          <div class="sourceBar"><span>MEDIENBEITRAG</span><b>SCREENSHOT · ARTIKEL</b></div>
-          <div class="mockArticle">
-            <small>BEISPIELHAFTE SCHLAGZEILE</small>
-            <h3>„Neue Zahlen zeigen:<br>Die Maßnahme wirkt“</h3>
-            <p>Im Text werden Entwicklung, Ursache und politische Bewertung miteinander verknüpft.</p>
-            <div class="scanLine" aria-hidden="true"></div>
-          </div>
-          <div class="inputTypes"><span>SCREENSHOT</span><span>FOTO</span><span>TEXT</span><span>URL</span></div>
-        </div>
-        <div class="analysisCore" aria-hidden="true"><span class="dataBeam beamIn"></span><span class="dataBeam beamOut"></span><span class="orbit one"></span><span class="orbit two"></span><span class="orbit three"></span><div class="core"><span class="corePulse"></span>P<small>PROCTOR</small></div><div class="scanLabel">CLAIMS WERDEN GETRENNT</div></div>
-        <div class="analysisPreview">
-          <div class="analysisHead"><span>STRUKTURANALYSE</span><b>6 CLAIMS</b></div>
-          <div class="signal fact"><span>C-01</span><p>Überprüfbare Tatsachenbehauptung</p><b>BELEGPASSAGE OFFEN</b></div>
-          <div class="signal interpretation"><span>C-02</span><p>Ursächliche Interpretation</p><b>ALTERNATIVE PRÜFEN</b></div>
-          <div class="signal value"><span>C-03</span><p>Politische Bewertung</p><b>WERTURTEIL</b></div>
-          <div class="analysisNote"><span>FAIRE GEGENPOSITION</span><p>Eine alternative Erklärung wird entwickelt, ohne dem Beitrag eine Absicht zu unterstellen.</p></div>
-        </div>
+        <div class="sourcePreview"><div class="sourceBar"><span>ERFASSTER BEITRAG</span><b>NOCH KEINE ANALYSE</b></div><div class="mockArticle"><small>BEISPIELHAFTE SCHLAGZEILE</small><h3>„Neue Zahlen zeigen:<br>Die Maßnahme wirkt“</h3><p>Hauptinhalt, Ausschlüsse und Warnungen werden vor dem Start sichtbar.</p><div class="scanLine" aria-hidden="true"></div></div><div class="inputTypes"><span>URL</span><span>TEXT</span><span>SCREENSHOT</span><span>FOTO</span></div></div>
+        <div class="analysisCore" aria-hidden="true"><span class="dataBeam beamIn"></span><span class="dataBeam beamOut"></span><span class="orbit one"></span><span class="orbit two"></span><span class="orbit three"></span><div class="core"><span class="corePulse"></span>✓<small>BESTÄTIGUNG</small></div><div class="scanLabel">AUSSAGEN WERDEN GETRENNT</div></div>
+        <div class="analysisPreview"><div class="analysisHead"><span>STRUKTURANALYSE</span><b>4 AUSSAGEN</b></div><div class="signal fact"><span>C-01</span><p>Überprüfbare Tatsachenbehauptung</p><b>PRÜFBAR</b></div><div class="signal interpretation"><span>C-02</span><p>Ursächliche Deutung</p><b>ALTERNATIVE OFFEN</b></div><div class="signal value"><span>C-03</span><p>Politische Bewertung</p><b>WERTURTEIL</b></div><div class="analysisNote"><span>GRÖSSTE UNSICHERHEIT</span><p>Die berichtete Entwicklung und ihre behauptete Ursache sind nicht dasselbe.</p></div></div>
       </div>
-      <div class="battleStatus"><span>INPUT ERFASST</span><b>WAS GENAU WIRD HIER BEHAUPTET?</b><span>BEHAUPTUNG · DEUTUNG · WERTUNG</span></div>
+      <div class="battleStatus"><span>ERFASST</span><b>DU BESTÄTIGST, WAS ANALYSIERT WIRD</b><span>ERST DANACH STARTET DIE KI</span></div>
     </div>
-    <div class="trustline"><span>KEIN LAGER</span><span>KEIN KÜNSTLICHER SIEGER</span><span>EIN NACHVOLLZIEHBARES VERFAHREN</span></div>
+    <div class="trustline"><span>KEIN GESAMT-WAHRHEITSSCORE</span><span>KEINE ANALYSE VOR BESTÄTIGUNG</span><span>SICHTBARE GRENZEN</span></div>
   </section>
 
   <section class="positioningHub" id="einstieg">
-    <div class="sectionIntro">
-      <div><div class="sectionNo">01 — DEIN EINSTIEG</div><h2>WAS LÄSST DICH<br><i>STUTZIG WERDEN?</i></h2></div>
-      <p>Du musst keine Aktenart auswählen und kein Fachverfahren kennen. Starte mit dem, was dich beschäftigt. VERBALKRIEG macht daraus Schritt für Schritt eine prüfbare Akte.</p>
-    </div>
-    <div class="entryChoiceGrid">
-      <article><span>01</span><small>MEDIENBEITRAG</small><h3>BEITRAG PRÜFEN</h3><p>Screenshot, Foto, Text oder URL einreichen. Wir legen offen, welche Behauptungen darin stecken und worauf sie sich stützen.</p><a href="https://app.verbalkrieg.de">BEITRAG EINREICHEN ↗</a></article>
-      <article><span>02</span><small>STREITFRAGE</small><h3>THEMA VERSTEHEN</h3><p>Eine Frage sauber aufdröseln: Argumente, Quellen, Gegenpositionen und offene Beweislasten an einem Ort.</p><a href="https://app.verbalkrieg.de">FRAGE PRÜFEN ↗</a></article>
-      <article><span>03</span><small>VORBEREITUNG</small><h3>DEBATTE VORBEREITEN</h3><p>Unterschiedliche Fachperspektiven zunächst unabhängig einordnen lassen – bevor sie aufeinander treffen.</p><a href="https://app.verbalkrieg.de">PERSPEKTIVEN WÄHLEN ↗</a></article>
-    </div>
-    <div class="developmentScope" aria-label="Geplante Erweiterungen">
-      <div><small>IN ENTWICKLUNG</small><b>RESONANZANALYSE</b><p>Sichtbare Reaktionen und Diskussionsdynamiken im ausdrücklich untersuchten Ausschnitt analysieren.</p></div>
-      <div><small>IN ENTWICKLUNG</small><b>SZENARIOPRÜFUNG</b><p>Annahmen, Zeithorizonte und alternative Entwicklungen zukunftsgerichteter Aussagen prüfen.</p></div>
-      <div><small>SPÄTERER ZUGANG</small><b>BROWSER-ERWEITERUNG</b><p>Bewusst ausgewählte, geöffnete Inhalte an dieselben transparenten Analyseverfahren übergeben.</p></div>
-    </div>
-    <p class="scopeNote">Eine Prüfung bleibt zunächst privat. Du entscheidest selbst, ob du sie nur ansehen, weiterführen oder später teilen möchtest.</p>
-  </section>
-
-  <section class="mediaCheck" id="mediencheck">
-    <div class="sectionIntro"><div><div class="sectionNo">02 — MEDIENCHECK</div><h2>NICHT JEDE AUSSAGE<br><i>IST EINE TATSACHE.</i></h2></div><p>Lade einen Screenshot oder ein Foto hoch, füge eine Schlagzeile, einen Textauszug oder eine URL ein. VERBALKRIEG zeigt, was ein Beitrag behauptet – nicht, was du darüber denken sollst.</p></div>
-    <div class="inputDeck">
-      <div class="inputCard active"><span>01</span><b>SCREENSHOT</b><p>Medienbericht oder Social-Media-Beitrag als Bild.</p></div>
-      <div class="inputCard"><span>02</span><b>FOTO</b><p>Gedruckter Artikel oder fotografierter Text.</p></div>
-      <div class="inputCard"><span>03</span><b>TEXT</b><p>Schlagzeile, Auszug oder vollständiger Beitrag.</p></div>
-      <div class="inputCard"><span>04</span><b>URL</b><p>Link zu einem öffentlich erreichbaren Medienbeitrag.</p></div>
-    </div>
-    <div class="auditQuestions">
-      <div class="auditLead"><span>TRANSPARENTES PRÜFVERFAHREN</span><h3>KEIN URTEIL AUS DEM BAUCH.<br>SONDERN: <i>WAS GENAU WIRD BEHAUPTET?</i></h3><p>Die Analyse trennt Tatsachen, Deutungen, Prognosen und Wertungen. Sie zeigt Quellen, fehlende Bezugsgrößen und die stärkste faire Gegenposition.</p><a class="primary" href="https://app.verbalkrieg.de">BEITRAG PRÜFEN LASSEN <span>→</span></a></div>
-      <ol class="questionList">
-        <li><span>01</span><p>Welche konkreten Tatsachenbehauptungen werden aufgestellt?</p></li>
-        <li><span>02</span><p>Was ist Interpretation, Prognose oder Werturteil?</p></li>
-        <li><span>03</span><p>Welche Quellen, Vergleichswerte oder statistischen Nenner fehlen?</p></li>
-        <li><span>04</span><p>Welche Informationen könnten für die Einordnung relevant sein?</p></li>
-        <li><span>05</span><p>Welche sprachlichen Framing-Mechanismen sind sichtbar?</p></li>
-        <li><span>06</span><p>Was ist die stärkste faire Lesart – und welche Gegenposition hält dagegen?</p></li>
-      </ol>
-    </div>
-  </section>
-
-  <section class="statement" id="warum">
-    <div class="sectionNo">03 — WARUM VERBALKRIEG?</div>
-    <h2>LAUT IST NICHT<br><i>BELASTBAR.</i></h2>
-    <p>Eine Debatte verliert nichts, wenn man genauer hinsieht. Sie verliert nur die Nebelmaschine. VERBALKRIEG trennt Fakten, Deutungen und Werte – damit sichtbar wird, was ein Argument wirklich trägt.</p>
-    <div class="problemGrid">
-      <article><span>01</span><b>VERMISCHTE EBENEN</b><p>Messbare Aussagen, Prognosen und politische Wertungen erscheinen oft wie ein einziger Befund.</p></article>
-      <article><span>02</span><b>UNSICHTBARE BEWEISLAST</b><p>Quellen, Bezugsgrößen und Gegenbeispiele fehlen oder bleiben im Erzählfluss verborgen.</p></article>
-      <article><span>03</span><b>SCHNELLES URTEIL</b><p>Empörung und Zustimmung entstehen früher als eine faire Prüfung der stärksten Argumente.</p></article>
-    </div>
+    <div class="sectionIntro"><div><div class="sectionNo">01 — EIN EINSTIEG</div><h2>BEITRAG HINEIN.<br><i>KLARHEIT HERAUS.</i></h2></div><p>Keine Rollenwahl, keine Debattenregeln, keine Modellkonfiguration. Wähle nur den Beitrag, den du verstehen möchtest.</p></div>
+    <div class="entryChoiceGrid focusEntry"><article><span>01</span><small>MEDIENBEITRAG</small><h3>URL, TEXT ODER BILD</h3><p>Füge einen Artikel, eine Schlagzeile, einen Textauszug, Screenshot oder ein Foto ein. PDFs werden in der Alpha sicher über eine öffentlich erreichbare URL verarbeitet.</p><a href="https://app.verbalkrieg.de">JETZT BEITRAG PRÜFEN ↗</a></article></div>
+    <div class="inputDeck"><div class="inputCard active"><span>01</span><b>URL</b><p>Öffentlich erreichbarer Artikel oder PDF-Link.</p></div><div class="inputCard"><span>02</span><b>TEXT</b><p>Schlagzeile, Auszug oder vollständiger Beitrag.</p></div><div class="inputCard"><span>03</span><b>SCREENSHOT</b><p>Digitaler Medienbeitrag als Bild.</p></div><div class="inputCard"><span>04</span><b>FOTO</b><p>Fotografierter Artikel oder sichtbarer Text.</p></div></div>
+    <p class="scopeNote">Eine Prüfung startet privat. Du entscheidest ausdrücklich, ob eine fertige Medienakte später geteilt wird.</p>
   </section>
 
   <section class="processSection" id="ablauf">
-    <div class="sectionIntro"><div><div class="sectionNo">04 — SO FUNKTIONIERT'S</div><h2>VON „DA STIMMT WAS NICHT“<br><i>ZU EINER KLAREN PRÜFAKTE.</i></h2></div><p>Du bringst das Material mit. VERBALKRIEG macht die Struktur sichtbar. Das Ergebnis bleibt nachvollziehbar – und die Entscheidung bei dir.</p></div>
-    <div class="process processFour mediaFlow">
-      <article><span>01</span><b>EINREICHEN</b><p>Beitrag, Bild, Link, Text oder Aussage eingeben.</p></article>
-      <article><span>02</span><b>AUFSCHLÜSSELN</b><p>Tatsachenbehauptungen, Deutungen und Wertungen trennen.</p></article>
-      <article class="active"><span>03</span><b>GEGENPRÜFEN</b><p>Quellen, Gegenargumente und offene Punkte sichtbar machen.</p></article>
-      <article><span>04</span><b>EINORDNEN</b><p>Was trägt? Was bleibt offen? Was ist nicht belegbar?</p></article>
-    </div>
+    <div class="sectionIntro"><div><div class="sectionNo">02 — SO FUNKTIONIERT'S</div><h2>VIER SCHRITTE.<br><i>KEINE VERSTECKTE ABKÜRZUNG.</i></h2></div><p>Der untersuchte Inhalt und die Analyse bleiben sauber getrennt. Damit siehst du, worauf sich das Ergebnis tatsächlich bezieht.</p></div>
+    <div class="process processFour mediaFlow"><article><span>01</span><b>ERFASSEN</b><p>URL, Text oder Bild in eine Vorschau überführen.</p></article><article class="active"><span>02</span><b>BESTÄTIGEN</b><p>Hauptinhalt, Ausschlüsse und Warnungen kontrollieren.</p></article><article><span>03</span><b>EINORDNEN</b><p>Tatsachen, Deutungen, Werte und Prognosen trennen.</p></article><article><span>04</span><b>SICHERN</b><p>Das Ergebnis als private Medienakte aufbewahren.</p></article></div>
+    <div class="capturePromise"><strong>Vor deiner Bestätigung findet keine KI-Analyse statt.</strong><p>Korrekturen an der Erfassung sind ausdrücklich erlaubt. Methode, Zeitstempel und SHA-256-Nachweis bleiben an der Akte dokumentiert.</p></div>
   </section>
 
-  <section class="studio" id="studio">
-    <div class="sectionIntro"><div><div class="sectionNo">05 — PRÜFRAHMEN</div><h2>ERST DIE FRAGE.<br><i>DANN DAS URTEIL.</i></h2></div><p>VERBALKRIEG macht aus einem schnellen Eindruck einen klaren Prüfrahmen: Was wird behauptet, was müsste dafür gelten und welche Gegenposition ist fair?</p></div>
-    <div class="studioWindow">
-      <div class="windowTop"><span>VK / ARCHON</span><span>PRÜFRAHMEN 0042</span><i>● BEREIT ZUR PRÜFUNG</i></div>
-      <div class="studioGrid">
-        <div class="ideaPanel"><small>EINGEGEBENER BEITRAG</small><h3>„Neue Zahlen zeigen: Die Maßnahme wirkt.“</h3><div class="aiHint"><span>✦</span><p><b>DIE GEGENFRAGE</b> Welche Zahlen? Wirkung im Vergleich wozu, über welchen Zeitraum und für welche Gruppe? Eine plausible Aussage wird erst belastbar, wenn sie diese Fragen aushält.</p></div><a class="inline-action" href="https://app.verbalkrieg.de">IN DER APP PRÜFEN <span>↗</span></a></div>
-        <div class="contractPanel"><small>TRANSPARENTER PRÜFRAHMEN</small><label>CLAIMS <b>EINZELN ERFASST</b></label><label>BEGRIFFE &amp; NENNER <b>DEFINIERT</b></label><label>GEGENPOSITION <b>FAIR FORMULIERT</b></label><label>BEWEISLAST <b>ZUGEORDNET</b></label><label>ERWIDERUNGSRECHT <b>GARANTIERT</b></label><a class="launch" href="https://app.verbalkrieg.de">PRÜFUNG STARTEN <span>→</span></a></div>
-      </div>
-    </div>
+  <section class="ledger" id="ergebnis">
+    <div class="sectionIntro"><div><div class="sectionNo">03 — DIE MEDIENAKTE</div><h2>KEIN PAUSCHALURTEIL.<br><i>JEDE AUSSAGE FÜR SICH.</i></h2></div><p>Ein Beitrag kann richtige Tatsachen, fragwürdige Deutungen und unbelegte Prognosen zugleich enthalten. Deshalb gibt es keinen Gesamt-Wahrheitsscore.</p></div>
+    <div class="ledgerGrid"><div class="claimList"><div class="claim green"><span>C-01</span><p>Der gemessene Wert ist im betrachteten Zeitraum gesunken.</p><b>TATSACHENBEHAUPTUNG</b><i class="level-78"></i></div><div class="claim amber"><span>C-02</span><p>Die Maßnahme war die entscheidende Ursache.</p><b>KAUSALDEUTUNG</b><i class="level-58"></i></div><div class="claim blueClaim"><span>C-03</span><p>Die Wirkung wird langfristig anhalten.</p><b>PROGNOSE</b><i class="level-43"></i></div><div class="claim red"><span>C-04</span><p>Das Ergebnis rechtfertigt die politische Entscheidung.</p><b>WERTURTEIL</b><i class="level-26"></i></div></div><div class="evidence"><div class="evidenceTop"><span>ALPHA / STRUKTURANALYSE</span><b>STAND: M5</b></div><h3>HEUTE SICHTBAR.</h3><div class="check"><span>01</span><p>Neutrale Kurzfassung</p><b>AKTIV</b></div><div class="check"><span>02</span><p>Aussagearten &amp; Fundstellen</p><b>AKTIV</b></div><div class="check"><span>03</span><p>Framing &amp; fehlender Kontext</p><b>AKTIV</b></div><div class="check"><span>04</span><p>Vertiefte Quellenprüfung</p><b>FOLGT MIT M6</b></div><div class="verdict"><small>WICHTIGE GRENZE</small>Die aktuelle Alpha analysiert die Struktur eines Beitrags. Eine vollständige, quellenbasierte Wahrheitsprüfung ist noch nicht freigeschaltet.</div></div></div>
+  </section>
+
+  <section class="futureSection" id="folgen">
+    <div class="sectionIntro"><div><div class="sectionNo">04 — OPTIONAL AB M7</div><h2>MÖGLICHE FOLGEN.<br><i>KEINE VORHERSAGEMASCHINE.</i></h2></div><p>Szenarien werden später eine freiwillige Vertiefung nach einer belastbaren Medienakte – nie ein automatischer Teil jeder Analyse.</p></div>
+    <div class="developmentScope"><div><small>EIGNUNGS-GATE</small><b>AUCH ENTHALTUNG IST EIN ERGEBNIS</b><p>Fehlen gesicherte Ausgangsfakten oder ein sinnvoller Zusammenhang, werden keine Szenarien erzeugt.</p></div><div><small>EINE LEITFRAGE</small><b>MAXIMAL 24 MONATE</b><p>Der Nutzer bestätigt Frage und Zeitraum ausdrücklich. Der Wissensstand bleibt datiert und versioniert.</p></div><div><small>1–3 SZENARIEN</small><b>KEINE ERFUNDENEN PROZENTE</b><p>Plausibilität und Belastbarkeit werden getrennt gezeigt – mit Annahmen, Frühindikatoren und Gegenargumenten.</p></div></div>
+    <p class="futureNotice">„Mögliche Folgen“ ist in Version 0.7.0-alpha noch nicht aktiv.</p>
   </section>
 
   <section class="methodCharter" id="methode">
-    <div class="sectionIntro"><div><div class="sectionNo">06 — METHODENCHARTA</div><h2>EINHEITLICHE KRITERIEN.<br><i>SICHTBARE GRENZEN.</i></h2></div><p>VERBALKRIEG ist keine Wahrheitsmaschine. Es schafft ein politisch ungebundenes, methodisch symmetrisches und korrigierbares Verfahren – damit du Einordnungen nachvollziehen statt nur übernehmen kannst.</p></div>
-    <div class="charterGrid">
-      <article><span>01</span><h3>POLITISCH UNGEBUNDEN</h3><p>Keine politische oder weltanschauliche Richtung erhält einen bevorzugten Prüfmaßstab.</p></article>
-      <article><span>02</span><h3>METHODISCH SYMMETRISCH</h3><p>Gleichartige Aussagen werden nach denselben Regeln, Beweislasten und Quellenmaßstäben behandelt.</p></article>
-      <article><span>03</span><h3>BELEGSTÄRKE ≠ WAHRHEIT</h3><p>Ein guter Beleg erhöht Belastbarkeit. Er macht eine Aussage nicht automatisch endgültig wahr.</p></article>
-      <article><span>04</span><h3>EMOTION IST KEIN FEHLER</h3><p>Emotionen und Erfahrungen besitzen Analysewert. Sie werden von überprüfbaren Tatsachenbehauptungen getrennt, nicht abgewertet.</p></article>
-      <article><span>05</span><h3>AUSSAGEN STATT MENSCHEN</h3><p>Geprüft werden Struktur, Gründe und Belege einer Aussage – nicht Persönlichkeit oder politische Zulässigkeit ihres Urhebers.</p></article>
-      <article><span>06</span><h3>KI BLEIBT FEHLBAR</h3><p>Einordnungen benötigen Fundstellen, Begründungen, Unsicherheiten und künftig nachvollziehbare Korrekturmöglichkeiten.</p></article>
-    </div>
-    <blockquote>VERBALKRIEG muss seine eigene Fehlbarkeit genauso sichtbar behandeln wie die Inhalte, die es untersucht.</blockquote>
-  </section>
-
-  <section class="roles" id="systemrollen">
-    <div class="sectionIntro"><div><div class="sectionNo">07 — DIE PRÜFUNG</div><h2>NICHT DIE LAUTESTE ANTWORT.<br><i>DIE, DIE TRÄGT.</i></h2></div><p>Hinter der Prüfung arbeiten getrennte Rollen mit einem begrenzten Auftrag. Keine davon entscheidet, welche politische oder moralische Position „gewinnt“.</p></div>
-    <div class="roleGrid">
-      <article><div class="roleIcon">A</div><small>INPUT / PRÜFRAHMEN</small><h3>ARCHON</h3><p>Zerlegt Material oder Nutzerideen, präzisiert Begriffe und entwickelt faire Gegenpositionen sowie Beweislasten.</p><b>ENTWICKELT DEN RAHMEN</b></article>
-      <article><div class="roleIcon">P</div><small>REGELN / DEBATTE</small><h3>PROCTOR</h3><p>Überwacht Scope und Regeln, trennt Mehrfachbehauptungen und registriert neue Claims sichtbar.</p><b>URTEILT NICHT POLITISCH</b></article>
-      <article><div class="roleIcon">E</div><small>QUELLEN / PRIMÄRBELEGE</small><h3>EVIDENCE</h3><p>Verfolgt Medienberichte zu Primärquellen zurück. Entscheidungstragend sind nur nachverfolgte Originalbelege oder belastbare Forschungssynthesen.</p><b>TRENNT HINWEIS VON BELEG</b></article>
-      <article><div class="roleIcon">R</div><small>ABSCHLUSS / QUINTESSENZ</small><h3>ARBITER</h3><p>Verdichtet das Protokoll zu einem politisch ungebunden und nach denselben Kriterien formulierten, gut lesbaren Bericht mit offenen Fragen.</p><b>KÜRT KEINEN SIEGER</b></article>
-    </div>
-  </section>
-
-  <section class="ledger" id="pruefprotokoll">
-    <div class="sectionIntro"><div><div class="sectionNo">08 — CLAIM LEDGER &amp; EVIDENCE</div><h2>JEDE BEHAUPTUNG<br><i>HINTERLÄSST SPUREN.</i></h2></div><p>Das Claim Ledger ist das nachvollziehbare Register der Debatte. Es zeigt, was behauptet, gestützt, eingeschränkt, revidiert oder offengelassen wurde.</p></div>
-    <div class="ledgerGrid">
-      <div class="claimList">
-        <div class="claim green"><span>C-01</span><p>Der gemessene Wert ist im betrachteten Zeitraum gesunken.</p><b>GESTÜTZT</b><i class="level-78"></i></div>
-        <div class="claim amber"><span>C-02</span><p>Die Maßnahme war die entscheidende Ursache.</p><b>BEDINGT</b><i class="level-58"></i></div>
-        <div class="claim blueClaim"><span>C-03</span><p>Die Wirkung wird langfristig anhalten.</p><b>PROGNOSE</b><i class="level-43"></i></div>
-        <div class="claim red"><span>C-04</span><p>Das Ergebnis rechtfertigt die politische Entscheidung.</p><b>WERTURTEIL</b><i class="level-26"></i></div>
-      </div>
-      <div class="evidence">
-        <div class="evidenceTop"><span>EVIDENCE REVIEW / C-02</span><b>STATUS: BEDINGT</b></div><h3>FAKT IST NICHT DEUTUNG.</h3>
-        <div class="check"><span>01</span><p>Tatsachenstatus</p><b>DATEN GESTÜTZT</b></div>
-        <div class="check"><span>02</span><p>Ursächliche Erklärung</p><b>NICHT EINDEUTIG</b></div>
-        <div class="check"><span>03</span><p>Bedingte Wahrscheinlichkeit</p><b>ANNAHMENABHÄNGIG</b></div>
-        <div class="check"><span>04</span><p>Normative Bewertung</p><b>NICHT EMPIRISCH</b></div>
-        <div class="verdict"><small>EVIDENCE-HINWEIS</small>Die beobachtete Entwicklung ist belegt. Ob sie durch die Maßnahme verursacht wurde, bleibt von Vergleichsdaten und alternativen Erklärungen abhängig.</div>
-      </div>
-    </div>
-    <div class="ledgerRules"><article><span>FAKTENPRÜFUNG</span><p>Prüft einzelne Aussagen anhand von Primärquellen, belastbaren Forschungssynthesen und nachweisbaren Passagen.</p></article><article><span>ARGUMENTATIONSANALYSE</span><p>Zeigt Schlussfolgerungen, Annahmen, Framing und alternative Erklärungen.</p></article><article><span>MEINUNGSBEWERTUNG</span><p>Werturteile werden kenntlich gemacht – nicht als objektiv richtig oder falsch ausgegeben.</p></article></div>
-  </section>
-
-
-  <section class="knowledgeSection" id="begriffe">
-    <div class="sectionIntro knowledgeIntro"><div><div class="sectionNo">09 — BEGRIFFSREGISTER</div><h2>ERST TRENNEN.<br><i>DANN URTEILEN.</i></h2></div><p>Fakt, Meinung, Wertung oder Spekulation? Wer die Ebenen nicht trennt, prüft am Ende das falsche Argument. Das Register erklärt die zentralen Begriffe ohne akademische Nebelkerzen.</p></div>
-    <div class="knowledgeThesis"><span>MERKSATZ 001</span><strong>EINE TATSACHENBEHAUPTUNG<br>IST NOCH KEINE TATSACHE.</strong><p>Sie ist zunächst ein prüfbarer Satz. Ob sie hält, entscheidet die Qualität der Belege – nicht ihre Selbstsicherheit.</p></div>
-    <div class="knowledgeTools"><label for="knowledgeSearch">BEGRIFF SUCHEN</label><input id="knowledgeSearch" type="search" placeholder="z. B. Meinung, Beleg, Framing …" autocomplete="off"><span id="knowledgeCount">18 BEGRIFFE</span></div>
-    <div class="knowledgeGrid" id="knowledgeGrid"><details class="knowledgeCard" data-knowledge-term="tatsache"><summary><span>Tatsache</span><b>Ein Sachverhalt, der unabhängig davon besteht, ob jemand ihn glaubt.</b></summary><div><p>Eine Tatsachenbehauptung ist noch keine Tatsache. Erst geeignete Belege zeigen, wie gut sie gestützt ist.</p><small>BEISPIEL</small><p>Der Bundestag verabschiedete das Gesetz am angegebenen Datum – belegt durch das Plenarprotokoll.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="tatsachenbehauptung"><summary><span>Tatsachenbehauptung</span><b>Eine Aussage über die Wirklichkeit, die grundsätzlich wahr oder falsch sein kann.</b></summary><div><p>Überprüfbarkeit allein macht die Aussage nicht wahr.</p><small>BEISPIEL</small><p>Die Zahl der Raucher ist seit 2020 gesunken.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="behauptung"><summary><span>Behauptung</span><b>Eine Aussage, die als zutreffend hingestellt wird und bestritten werden kann.</b></summary><div><p>Sie ist noch kein Argument und noch kein Beleg.</p><small>BEISPIEL</small><p>Die Reform senkt den Tabakkonsum.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="meinung"><summary><span>Meinung</span><b>Eine persönliche Haltung oder Schlussfolgerung.</b></summary><div><p>Die Haltung ist frei; enthaltene Tatsachenbehauptungen bleiben prüfbar.</p><small>BEISPIEL</small><p>Ich halte die Reform für ungerecht.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="werturteil"><summary><span>Werturteil</span><b>Eine Bewertung anhand von Werten, Maßstäben oder Prioritäten.</b></summary><div><p>Es ist nicht rein empirisch beweisbar, kann aber transparent begründet werden.</p><small>BEISPIEL</small><p>Der Schutz Minderjähriger sollte höher wiegen.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="interpretation"><summary><span>Interpretation</span><b>Eine begründete Deutung von Beobachtungen, Texten oder Daten.</b></summary><div><p>Eine plausible Deutung ist kein direkt beobachteter Fakt.</p><small>BEISPIEL</small><p>Der Rückgang spricht eher für einen langfristigen Trend.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="spekulation"><summary><span>Spekulation</span><b>Eine Möglichkeit, für die noch nicht genügend Belege vorliegen.</b></summary><div><p>Sie darf Fragen öffnen, aber nicht als gesicherte Erkenntnis auftreten.</p><small>BEISPIEL</small><p>Möglicherweise änderte sich das Verhalten wegen der Berichterstattung.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="prognose"><summary><span>Prognose</span><b>Eine begründete Aussage über eine zukünftige Entwicklung.</b></summary><div><p>Sie wird nach Methode, Annahmen und Unsicherheit beurteilt.</p><small>BEISPIEL</small><p>Die Maßnahme dürfte den Konsum bis 2030 senken.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="kausalbehauptung"><summary><span>Kausalbehauptung</span><b>Die Behauptung, dass ein Faktor einen anderen bewirkt oder mitbewirkt.</b></summary><div><p>Korrelation allein belegt keine Ursache.</p><small>BEISPIEL</small><p>Die Steuererhöhung verursachte den Konsumrückgang.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="korrelation"><summary><span>Korrelation</span><b>Ein statistischer Zusammenhang zwischen zwei Größen.</b></summary><div><p>Sie zeigt gemeinsamen Verlauf, aber nicht dessen Ursache.</p><small>BEISPIEL</small><p>Mit höheren Preisen ging ein geringerer Absatz einher.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="argument"><summary><span>Argument</span><b>Prämissen, die eine Schlussfolgerung stützen sollen.</b></summary><div><p>Eine einzelne Behauptung ohne Begründung ist noch kein Argument.</p><small>BEISPIEL</small><p>Jugendliche reagieren stärker auf Preise; daher dürfte ihr Konsum stärker sinken.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="beleg"><summary><span>Beleg</span><b>Konkrete Information, die für oder gegen eine Behauptung spricht.</b></summary><div><p>Der Beleg ist die relevante Passage oder Zahl – nicht bloß ein Link.</p><small>BEISPIEL</small><p>Tabelle 3 weist den Rückgang für die Altersgruppe aus.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="primärquelle"><summary><span>Primärquelle</span><b>Eine Quelle möglichst nah am ursprünglichen Vorgang, Dokument oder Datensatz.</b></summary><div><p>Primär bedeutet näher am Ursprung, nicht automatisch fehlerfrei.</p><small>BEISPIEL</small><p>Gesetzestext, Originalstudie oder amtlicher Datensatz.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="sekundärquelle"><summary><span>Sekundärquelle</span><b>Eine Quelle, die Primärmaterial auswählt, einordnet oder zusammenfasst.</b></summary><div><p>Wertvoll für Orientierung; zentrale Aussagen sollten zur Grundlage zurückverfolgt werden.</p><small>BEISPIEL</small><p>Ein Zeitungsartikel über eine neue Studie.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="evidenz"><summary><span>Evidenz</span><b>Die Gesamtheit und Qualität der Belege für oder gegen eine Aussage.</b></summary><div><p>Ein einzelner Link oder Expertenname ist noch keine starke Evidenz.</p><small>BEISPIEL</small><p>Mehrere unabhängige hochwertige Studien stützen denselben Effekt.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="framing"><summary><span>Framing</span><b>Die Auswahl von Perspektive, Begriffen und Vergleichsrahmen, die eine Deutung nahelegt.</b></summary><div><p>Framing ist nicht automatisch Manipulation oder Beweis für Absicht.</p><small>BEISPIEL</small><p>Dieselbe Ausgabe heißt je nach Rahmen „Investition“ oder „Belastung“.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="beweislast"><summary><span>Beweislast</span><b>Die Verantwortung, eine aufgestellte Behauptung ausreichend zu begründen.</b></summary><div><p>Dass das Gegenteil nicht bewiesen ist, erfüllt die eigene Beweislast nicht.</p><small>BEISPIEL</small><p>Wer einen kausalen Nutzen behauptet, muss ihn stützen.</p></div></details>
-<details class="knowledgeCard" data-knowledge-term="unsicherheit"><summary><span>Unsicherheit</span><b>Der begrenzte Grad an Sicherheit, den Daten und Methoden zulassen.</b></summary><div><p>Ungewissheit bedeutet weder völlige Ahnungslosigkeit noch Gleichwertigkeit aller Positionen.</p><small>BEISPIEL</small><p>Der Effekt ist wahrscheinlich positiv, seine genaue Größe bleibt offen.</p></div></details></div>
-    <p class="knowledgeEmpty" id="knowledgeEmpty" hidden>Kein Begriff passt zu dieser Suche.</p>
-  </section>
-
-  <section class="reportSection" id="abschlussbericht">
-    <div class="sectionIntro"><div><div class="sectionNo">10 — ARBITER / ABSCHLUSSBERICHT</div><h2>DIE DEBATTE ENDET.<br><i>DIE PRÜFUNG BLEIBT.</i></h2></div><p>ARBITER kürt keinen Sieger. Die Prüfakte trennt belastbare Befunde, bedingte Schlüsse, Wertfragen und ungeklärte Punkte – verständlich und nachvollziehbar.</p></div>
-    <div class="reportWindow">
-      <div class="windowTop"><span>ARBITER / ABSCHLUSSBERICHT</span><span>AKTE 0042</span><i>● GENERIERT</i></div>
-      <div class="reportGrid">
-        <div class="reportMain"><small>QUINTESSENZ</small><h3>Was hält der Prüfung stand?</h3><p>Die berichtete Entwicklung ist in den vorliegenden Daten erkennbar. Die zugeschriebene Ursache bleibt weniger sicher, weil belastbare Vergleichswerte fehlen. Die politische Bewertung hängt zusätzlich von offengelegten Wertmaßstäben ab.</p><div class="reportQuote">„Belegt ist die Entwicklung. Offen bleiben Ursache, Größenordnung und politische Gewichtung.“</div></div>
-        <div class="reportStats"><div><span>✓</span><small>GESTÜTZTE BEFUNDE</small></div><div><span>≈</span><small>BEDINGTE SCHLÜSSE</small></div><div><span>?</span><small>OFFENE FRAGEN</small></div><div><span>—</span><small>KEIN SIEGERURTEIL</small></div></div>
-        <div class="reportOpen"><small>SELBST WEITERPRÜFEN</small><ol><li>Welche Vergleichsgruppe fehlt für die Ursachenaussage?</li><li>Welche Wertmaßstäbe bestimmen die politische Einordnung?</li></ol><a href="https://app.verbalkrieg.de">MEDIENBEITRAG PRÜFEN ↗</a></div>
-      </div>
-    </div>
+    <div class="sectionIntro"><div><div class="sectionNo">05 — METHODENCHARTA</div><h2>EINHEITLICHE KRITERIEN.<br><i>SICHTBARE GRENZEN.</i></h2></div><p>VERBALKRIEG ist keine Wahrheitsmaschine. Es schafft ein politisch ungebundenes, korrigierbares Verfahren, dessen Unsicherheiten sichtbar bleiben.</p></div>
+    <div class="charterGrid"><article><span>01</span><h3>POLITISCH UNGEBUNDEN</h3><p>Keine Richtung erhält einen bevorzugten Prüfmaßstab.</p></article><article><span>02</span><h3>AUSSAGEN STATT MENSCHEN</h3><p>Geprüft werden Inhalt, Gründe und Belege – nicht Persönlichkeit oder Zulässigkeit des Urhebers.</p></article><article><span>03</span><h3>BELEGSTÄRKE ≠ WAHRHEIT</h3><p>Ein guter Beleg erhöht Belastbarkeit, ersetzt aber keine ausgewiesene Unsicherheit.</p></article><article><span>04</span><h3>FAKT ≠ DEUTUNG</h3><p>Beobachtung, Ursache, Prognose und Werturteil bleiben getrennt.</p></article><article><span>05</span><h3>KORRIGIERBAR</h3><p>Die bestätigte Eingabe bleibt sichtbar; Korrekturen erzeugen nachvollziehbare Fassungen.</p></article><article><span>06</span><h3>KI BLEIBT FEHLBAR</h3><p>Fundstellen, Grenzen und begründete Enthaltung gehören zum Ergebnis.</p></article></div>
+    <blockquote>Es geht nicht darum, wer gewinnt, sondern was der Prüfung standhält.</blockquote>
   </section>
 
   <section class="platformSection" id="plattform">
-    <div class="sectionIntro"><div><div class="sectionNo">11 — DIE PLATTFORM</div><h2>DEIN MATERIAL.<br><i>DEINE ENTSCHEIDUNG.</i></h2></div><p>Eine Prüfung beginnt privat. Quellen, Prüfschritte und offene Punkte bleiben für dich nachvollziehbar – du entscheidest, ob du weiterarbeitest oder teilst.</p></div>
-    <div class="featureGrid">
-      <article><span>01</span><h3>DEINE PRÜFAKTEN</h3><p>Eigene Prüfungen und Streitfragen an einem Ort weiterführen.</p></article>
-      <article><span>02</span><h3>PRIVAT STARTEN</h3><p>Du entscheidest, ob eine Prüfung bei dir bleibt, geteilt oder veröffentlicht wird.</p></article>
-      <article><span>03</span><h3>AKTENARCHIV</h3><p>Freigegebene Prüfungen und Erkenntnisberichte nachvollziehen.</p></article>
-      <article><span>04</span><h3>CLAIM LEDGER</h3><p>Behauptungen, Revisionen und offene Beweislasten nachvollziehen.</p></article>
-      <article><span>05</span><h3>GEFÜHRTE PRÜFUNG</h3><p>Vom Material über die Quellen bis zur Einordnung klar geführt.</p></article>
-      <article><span>06</span><h3>NUTZUNG &amp; KOSTEN</h3><p>Verbrauch und anfallende Kosten vor und während der Prüfung transparent kontrollieren.</p></article>
-    </div>
-    <div class="platformActions"><a class="primary" href="https://app.verbalkrieg.de">JETZT ETWAS PRÜFEN <span>→</span></a><a class="secondaryCta" href="https://app.verbalkrieg.de">AKTENARCHIV ANSEHEN <span>↗</span></a></div>
-  </section>
-
-  <section class="audienceSection">
-    <div class="sectionNo">12 — FÜR WEN?</div><h2>FÜR ALLE, DIE ARGUMENTE<br>NICHT EINFACH <i>SCHLUCKEN.</i></h2>
-    <div class="audienceGrid"><span>POLITISCHE BERICHTERSTATTUNG EINORDNEN</span><span>WIDERSPRÜCHLICHE QUELLEN VERGLEICHEN</span><span>JOURNALISTISCH RECHERCHIEREN</span><span>INHALTE VERANTWORTUNGSVOLL ERSTELLEN</span><span>LEHREN UND LERNEN</span><span>WISSENSCHAFTLICH DISKUTIEREN</span><span>FACHDEBATTEN ENTWICKELN</span><span>UNTERHALTSAME DUELLE STARTEN</span></div>
+    <div class="sectionIntro"><div><div class="sectionNo">06 — DEINE PRÜFUNGEN</div><h2>PRIVAT STARTEN.<br><i>BEWUSST TEILEN.</i></h2></div><p>Gespeicherte Medienakten bleiben in „Meine Prüfungen“ erreichbar. Frühere Debattenakten bleiben für ihre Eigentümer lesbar, sind aber kein normaler Produkteinstieg mehr.</p></div>
+    <div class="featureGrid focusFeatures"><article><span>01</span><h3>DAUERHAFTE AKTEN</h3><p>Bestätigte Medienanalysen im persönlichen Konto sichern.</p></article><article><span>02</span><h3>ÖFFENTLICHE MEDIENAKTEN</h3><p>Eine Akte nur nach ausdrücklicher Freigabe teilen.</p></article><article><span>03</span><h3>ALTSTAND BLEIBT LESBAR</h3><p>Vorhandene Prüfakten und öffentliche Direktlinks werden nicht gelöscht.</p></article></div>
   </section>
 
   <section class="limits" id="alpha">
-    <div class="sectionNo">13 — TRANSPARENZ &amp; ALPHA</div><h2>NEUTRALITÄT IST KEIN TONFALL.<br><i>SIE IST EIN VERFAHREN.</i></h2>
-    <div class="limitsCopy"><p>VERBALKRIEG verspricht keine endgültige Wahrheit und keine vorgegebene Richtung. Es zeigt, worauf sich eine Aussage stützt, welche Quellen fehlen oder fragwürdig sind, welche Gegenargumente bestehen und wo ein Ergebnis offen bleiben muss. KI kann irren – deshalb gehören Fundstellen, Grenzen und Unsicherheit sichtbar dazu.</p><strong>MANCHMAL IST „UNKLÄRT“<br>DIE EHRLICHSTE<br>ANTWORT.</strong></div>
-    <div class="alphaNotice"><span>FRÜHE ALPHA · VERSION 0.5.16</span><p>Die Plattform wird aktiv weiterentwickelt. Analysen sind Einordnungen, keine Ersatzentscheidung. Prüfe wichtige Folgen zusätzlich an den ausgewiesenen Originalquellen.</p></div>
+    <div class="sectionNo">07 — TRANSPARENZ &amp; ALPHA</div><h2>MANCHMAL IST „UNKLÄRT“<br><i>DIE EHRLICHSTE ANTWORT.</i></h2>
+    <div class="limitsCopy"><p>Die Alpha hilft, einen Beitrag präziser zu lesen. Sie ersetzt keine fachliche, medizinische, rechtliche oder finanzielle Beratung. KI kann irren; wichtige Entscheidungen müssen an den ausgewiesenen Originalquellen geprüft werden.</p><strong>KEIN LAGER.<br>KEIN KÜNSTLICHER SIEGER.<br>SICHTBARE UNSICHERHEIT.</strong></div>
+    <div class="alphaNotice"><span>GESCHLOSSENE ALPHA · VERSION 0.7.0</span><p>M5 konzentriert die Oberfläche auf Medienprüfung. Vollständige Quellenprüfung folgt mit M6; optional abgesicherte Szenarien mit M7.</p></div>
   </section>
 
-  <section class="finalCta"><span>VERBALKRIEG v0.5.16 · FRÜHE ALPHA</span><h2>BRING UNS EINE BEHAUPTUNG.<br><i>WIR ZEIGEN, WAS SIE AUSHÄLT.</i></h2><div class="finalActions"><a class="primary" href="https://app.verbalkrieg.de">JETZT PRÜFEN LASSEN <span>→</span></a><a class="secondaryCta" href="https://app.verbalkrieg.de">EINE FRAGE EINREICHEN <span>↗</span></a></div><p>Nicht bei der Empörung starten. Bei dem, was sich prüfen lässt.</p></section>
+  <section class="finalCta"><span>VERBALKRIEG v0.7.0 · GESCHLOSSENE ALPHA</span><h2>WELCHEN BEITRAG<br><i>MÖCHTEST DU VERSTEHEN?</i></h2><div class="finalActions"><a class="primary" href="https://app.verbalkrieg.de">BEITRAG PRÜFEN <span>→</span></a><a class="secondaryCta" href="https://app.verbalkrieg.de/akten/medienakten">MEDIENAKTEN ANSEHEN <span>↗</span></a></div><p>Erst sichtbar erfassen. Dann nachvollziehbar einordnen.</p></section>
 
-  <footer class="footer"><a class="brand brandLogo footerLogo" href="#top" aria-label="VERBALKRIEG Startseite"><img src="./assets/verbalkrieg-logo-concept.webp" alt="VERBALKRIEG" width="1702" height="924"></a><p>PRÜFBARE BEHAUPTUNGEN.<br>NACHVOLLZIEHBARE EINORDNUNG.</p><div><a href="#einstieg">EINSTIEG</a><a href="#ablauf">SO FUNKTIONIERT'S</a><a href="#methode">VERFAHREN</a><a href="#begriffe">BEGRIFFE</a><a href="https://app.verbalkrieg.de">APP ÖFFNEN ↗</a></div><small>KEIN LAGER · KEIN KÜNSTLICHER SIEGER<br>MAXIMALE NACHVOLLZIEHBARKEIT</small></footer>
+  <footer class="footer"><a class="brand brandLogo footerLogo" href="#top" aria-label="VERBALKRIEG Startseite"><img src="./assets/verbalkrieg-logo-concept.webp" alt="VERBALKRIEG" width="1702" height="924"></a><p>WAS WIRD BEHAUPTET?<br>WAS HÄLT STAND?</p><div><a href="#einstieg">EINSTIEG</a><a href="#ablauf">SO FUNKTIONIERT'S</a><a href="#folgen">MÖGLICHE FOLGEN</a><a href="#methode">VERFAHREN</a><a href="https://app.verbalkrieg.de">APP ÖFFNEN ↗</a></div><small>KEIN GESAMT-WAHRHEITSSCORE<br>MAXIMALE NACHVOLLZIEHBARKEIT</small></footer>
 </main>
 <script src="./app.js" defer></script>
 </body>
