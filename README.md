@@ -4,9 +4,11 @@
 
 ## Aktueller Stand
 
-- Version 0.4.4 Alpha
-- Positionierung: Analysezentrale für öffentliche Aussagen und Diskussionen
-- Geführter Einstieg: erst analysieren, danach optional als Akte speichern oder vertieft prüfen
+- Version 0.7.0 Alpha
+- Positionierung: fokussierte Medienprüfung mit optionaler, späterer Szenarioanalyse
+- Direkter Einstieg über URL, Text, Screenshot oder Foto
+- Erfassungsvorschau und ausdrückliche Bestätigung vor jeder KI-Analyse
+- Frühere Debattenfunktionen sind kein öffentlicher Produkteinstieg mehr
 - Öffentliche Methodencharta mit transparenten Verfahrensgrenzen
 - statische HTML-, CSS- und JavaScript-Seite
 - für GitHub Pages vorbereitet
